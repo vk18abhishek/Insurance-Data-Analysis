@@ -107,7 +107,7 @@ Microsoft SQL Server
   - Add a Matrix visual to represent **Coverage Amount across different Policy Types and Claim Statuses**.
   - Use **Policy Type** as Rows, **Claim Status** as Columns, and **Coverage Amount** as Values.
 
-![Snap1](Snap1.png)
+![Snap1](report/Snap1.png)
 
 - **Step 25: Publish Report to Power BI Service**
   - From Power BI Desktop, select **Publish** and publish the report to the required workspace in Power BI Service.
@@ -149,7 +149,7 @@ Microsoft SQL Server
 - **Step 35: Return to Main Dashboard**
   - Use the **Back** button on the detail page to return to the page from which the drill-through was initiated.
 
-![Snap2](Snap2.png)
+![Snap2](report/Snap2.png)
 
  - **Step 36: Test Scheduled Refresh**
   - In Power BI Service, open the **Semantic Model** and select **Scheduled Refresh**.
@@ -173,7 +173,7 @@ Microsoft SQL Server
   - Go to **Modeling → View As Roles** and select **Travel Role** to verify that the report displays only Travel-related data.
   - Stop viewing the role and repeat the test for **Health Role**.
 
-![Snap-RLS](Snap-RLS.png)
+![Snap-RLS](RLS/Snap-RLS.png)
 
 - **Step 41: Validate RLS in Power BI Service**
   - After publishing the report, open the Semantic Model in Power BI Service and select **Security**.
@@ -183,7 +183,7 @@ Microsoft SQL Server
   - Pin important visuals from the published report to a new Power BI Dashboard.
   - Add selected Card visuals from the main report page and the required visual from the detail page to the dashboard.
   - Use the dashboard to present key information at a glance, while the report provides detailed analysis across multiple pages.
- ![Snap-Dashboard](Snap-Dashboard.png) 
+ ![Snap-Dashboard](dashboard/Snap-Dashboard.png) 
 
 - **Step 43: Load Customer Feedback Data**
   - Get the customer feedback Excel file and load it into Power BI Desktop.
@@ -222,7 +222,7 @@ Microsoft SQL Server
 - **Step 51: Publish Sentiment Analysis Report**
   - Sign in to Power BI and publish the updated report to Power BI Service. 
 
-![Snap-Sentiment](Snap-Sentiment.png)  
+![Snap-Sentiment](report/Snap-Sentiment.png)  
 
 ## Insights
 
